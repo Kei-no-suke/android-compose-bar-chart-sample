@@ -2,6 +2,8 @@
 
 A sample code that draws a bar graph using the canvas of jetpack compose. I tried to make sure that the contents of the graph do not overflow.
 
+<img src="screenshot_bar_chart.jpg" width="320px">
+
 ## Referenced web pages
 
 - A method for calculating the tick marks on a graph's axis
