@@ -56,7 +56,7 @@ val textGap = convertDpToPx(4f, context)
 val axisStrokeWidth = 3f
 ```
 
-### グラフの色
+### グラフの軸の色
 ```kotlin
 // color
 val xAxisColor: Color = Color.Black
@@ -77,6 +77,44 @@ val xAxisColor: Color = Color.Black
 
 ```kotlin
 val yAxisColor: Color = Color.Black
+```
+
+### グラフの寸法の比
+```kotlin
+// ratio
+// ratio of bar to gap between bar and bar
+val ratioOfBarToGap = 5f / 1f
+// ratio of bar to gap between bar and axis
+val ratioOfBarToAxisGap = 3f / 1f
+// aspect ratio of chart area
+val chartAspectRatio = 2f / 3f
+```
+
+#### グラフの棒と、棒と棒の間の空白の寸法の比
+
+<img src="img/ratioOfBarToGap.png" width="320px">
+
+```kotlin
+// ratio of bar to gap between bar and bar
+val ratioOfBarToGap = 5f / 1f
+```
+
+#### グラフの棒と、縦軸と棒の間の空白の寸法の比
+
+<img src="img/ratioOfBarToAxisGap.png" width="320px">
+
+```kotlin
+// ratio of bar to gap between bar and axis
+val ratioOfBarToAxisGap = 3f / 1f
+```
+
+#### グラフの縦横の寸法の比
+
+<img src="img/chartAspectRatio.png" width="320px">
+
+```kotlin
+// aspect ratio of chart area
+val chartAspectRatio = 2f / 3f
 ```
 
 ## 参考サイト
