@@ -117,6 +117,73 @@ val ratioOfBarToAxisGap = 3f / 1f
 val chartAspectRatio = 2f / 3f
 ```
 
+## グラフのデータ
+
+```kotlin
+val dataY = listOf(
+    2003,
+    3000,
+    1000,
+    0,
+    902,
+    3400,
+    4502
+)
+val dataX = listOf(
+    "8/27",
+    "8/28",
+    "8/29",
+    "8/30",
+    "8/31",
+    "9/1",
+    "9/2"
+)
+```
+
+### x軸データ
+```kotlin
+val dataX = listOf(
+    "8/27",
+    "8/28",
+    "8/29",
+    "8/30",
+    "8/31",
+    "9/1",
+    "9/2"
+)
+```
+
+### y軸データ
+```kotlin
+val dataY = listOf(
+    2003,
+    3000,
+    1000,
+    0,
+    902,
+    3400,
+    4502
+)
+```
+
+## グラフの軸ラベル
+
+```kotlin
+// text of axis
+val yAxisText = "Steps"
+val xAxisText = "Date"
+```
+
+### x軸ラベル
+```kotlin
+val xAxisText = "Date"
+```
+
+### y軸ラベル
+```kotlin
+val yAxisText = "Steps"
+```
+
 ## 参考サイト
 このサンプルコードでは以下のサイトを参考にしました。
 
